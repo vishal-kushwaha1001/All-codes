@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regerstration form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 1cm 5cm;
+
+        }
+
+        div {
+            background-image: url(images\ -\ pp.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 5px double rgb(13, 77, 96);
+            padding-left: 100px;
+            border-radius: 5px;
+            height: 600px;
+            width: 500px;
+            line-height: 4vh;
+
+        }
+
+        .heading {
+            color: rgb(22, 25, 50);
+            font-size: 20px;
+            text-decoration: underline  rgb(12, 12, 69); 
+            padding-left: 60px;
+            font-weight: 900;
+        }
+        h2, h3{
+            text-shadow: 2px 2px 6px white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        button {
+            border-color: rgb(186, 139, 46);
+            background-color: rgb(238, 193, 142);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .select {
+            background-color: rgb(115, 129, 128);
+            color: azure;
+        }
+        .inputtext{
+            line-height:2vh;
+          
+        }
+       
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <legend><h2 class="heading"> REGERSTRATION FORM</h2></legend>
+
+        <form action="/data.php">
+            
+                <input type="text" placeholder=" full name" size="60" class="inputtext" ><BR>
+                <input type="email" placeholder=" email" name="useremail" id="email" size="60"class="inputtext"><br>
+
+                <input type="address" placeholder=" address" size="60" class="inputtext"> <br>
+            
+            <h3 class="heading"> Qualification</h3>
+            <label for="101">
+                <input type="radio" value="Deploma" class="Qualification" name="class" id="101">Deploma
+            </label>
+            <label for="102">
+                <input type="radio" value="class XII"class="Qualification" name="class" id="102">class XII
+            </label>
+            <label for="103">
+                <input type="radio" value="graduation"class="Qualification" name="class" id="103">graduation
+            </label>
+            <label for="104">
+                <input type="radio" value="postgraduation" class="Qualification"name="class" id="104">postgraduation
+            </label><br>
+            <label>
+                <b>Course :</b> 
+            </label> 
+            <label>
+                <select name="course" id="course" class="select">
+                    <option value="course">course </option>
+                    <option value="MCA">MCA </option>
+                    <option value="MBA">MBA </option>
+                    <option value="B.Tech">B.Tech </option>
+                    <option value="M.Tech"> M.Tech</option>
+                </select>
+            </label> 
+            <h3 class="heading"> Personal Details</h3>
+           <b>Date Of Birth : </b>
+            Date<input size="1"> Month<input SIZE="1">Year<input size="3"></input> <br>
+                <b>Gender :</b>
+                <select name="gender" id="gender" class="select">
+                    <option value="gender">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="prefer not to say">prefer not to say</option>
+                </select>
+            </label> <br>
+
+            <label><b> Contact No :</b>
+                <input size="1" type="text" name="country code " value="+91">
+                <input size="10" type="text" name="phone">
+
+            </label>
+
+            <br>
+
+
+            <h4 class="heading"> Login</h4>
+            <label><b> User- Id </b>
+                <input type="text" size="20" name="userid" placeholder="Create user id" required></BR>
+                <B>Password</B>
+                <input type="password" name="pass" placeholder=" create password" id="pass" size="20" required><BR></BR>
+            </label>
+
+
+
+            <label for="105">
+                <input type="checkbox" name="identify" id="105" required> i accept all terms & condition </label><br>
+
+            <footer>
+                <span>
+                    <button>
+                        <a href="/index.html" aria-setsize="200">
+                            Regester now
+                        </a>
+
+                    </button>
+                </span>
+
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>

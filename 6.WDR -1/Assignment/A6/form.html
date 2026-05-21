@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample online items and prices</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1> Sample online items and prices</h1>
+        </div>
+
+        <div class="inputsContainer">
+            <label for="laptop">Laptop($800 each) : </label>
+            <input type="number" id="laptop" value="0">
+
+            <label for="smartphone">Smartphone($400 each) : </label>
+            <input type="number" id="smartphone" value="0">
+
+            <label for="headphone">Laptop($50 each) : </label>
+            <input type="number" id="headphone" value="0">
+
+            <label for="tablet">Tablet($800 each) : </label>
+            <input type="number" id="tablet" value="0">
+            <div class="buttonContainer"><button class="btn">Calculate Total Price</button></div>
+
+
+        </div>
+
+    </div>
+    <script>
+        let inputs = document.querySelectorAll("input");
+        let btn = document.querySelector(".btn");
+        let container = document.querySelector(".buttonContainer");
+
+        btn.addEventListener("click", () => {
+            let total = parseInt(inputs[0].value) * 800 + parseInt(inputs[1].value) * 400
+                + parseInt(inputs[2].value) * 50 + parseInt(inputs[3].value) * 800;
+            let totalBox = document.createElement("div");
+            totalBox.innerText = "Total Price : $" + total;
+            container.appendChild(totalBox);
+            totalBox.classList.add("new");
+            let cut = document.createElement("button");
+            cut.innerText = "X";
+            cut.classList.add("cut");
+            totalBox.appendChild(cut);
+
+        })
+
+        container.addEventListener("click", () => {
+            if (event.target.className == "cut"){
+                let delTask = event.target.parentElement;
+                delTask.remove();
+                console.log("delete item");
+            }
+        })
+    </script>
+</body>
+
+</html>

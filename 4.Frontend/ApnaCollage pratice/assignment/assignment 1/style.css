@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    font-family: georgia;
+}
+
+
+h1{
+    color: #a52a2a;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{ color: #000;
+    text-align: center;
+
+}
+h4{ border: none;
+    text-align: center;
+}
+
+p{
+    color:red;
+    line-height: 30px;
+    text-align: center;
+}
+ h4 a{
+    text-decoration: none;
+    color: rgb(0,255,0);
+
+}
+textarea{
+    margin-left: 30px;
+    background-color: aqua;
+    color: #000;
+}
+button {
+    margin-left:40% ;
+    border: 2px solid lightblue;
+}
+button a{
+    text-decoration: none;
+    color: blueviolet;
+    background-color: #fff;
+    
+}

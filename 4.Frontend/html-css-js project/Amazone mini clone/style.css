@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+/* nevigation bar (Top) */
+#nevigation {padding: 10px 0px ;
+    height: 60px;
+    background-color: #0f1111;
+   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+#logo{
+color: #f08804;
+font-size: 25px;
+}
+
+button{ color: white;
+    background-color: #f08804;
+    width: 60px;
+    border: solid  orange;
+}
+
+/* main part */
+
+h1{ font-size: 40px; 
+color: #0f1111;
+font-style: italic;
+font-family:'Times New Roman', Times, serif ;
+text-align: center;
+text-decoration: underline solid #0f1111;
+font-weight: 700;
+background-color:bisque ;
+text-transform: capitalize;
+}
+
+#container{ height: 700px; 
+    background-color: bisque;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items:flex-start; */
+    align-content:space-evenly;
+    flex-wrap: wrap;
+
+
+}
+.class{ height: 230px;
+    width: 230px;
+    background-color: rgb(235, 255, 255);
+     display: inline-block;
+     border-radius: 25%;
+     margin:30px;
+     position: relative;
+     top:-5px;
+     text-align: center;
+     padding: 10px;
+}
+#logo101{background-image: url(mobile1.png);
+    background-size:contain;}
+#logo102{background-image: url(mobile2.webp);
+    background-size: contain;}
+#logo103{background-image: url(mobile3.webp);
+    background-size: contain;}
+#logo104{background-image: url(mobile4.webp);
+    background-size: contain;}
+#logo105{background-image: url(mobile5.webp);
+    background-size: contain;}
+#logo106{background-image: url(mobile6.webp);
+    background-size: contain;}
+#logo107{background-image: url(mobile7.webp);
+    background-size: contain;}
+#logo108{background-image: url(mobile8.webp);
+    background-size: contain;}
+
+.picdiv{border: 1px solid rgb(173, 221, 221);
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    margin-top: -10px;
+    border-radius: 10%;
+    background-color: rgb(254, 255, 220);
+    display: inline-block;
+    
+}
+
+ .nametag{color: #f08804;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+ }
+
+
+    /* footer */
+.bottom{
+    background-color: #0f1111;
+    height:auto;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    color: #f08804;
+}

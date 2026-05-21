@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+    background-color: navy;
+    color:white;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: 700;  
+    text-transform: capitalize; 
+}
+.inputsContainer{ 
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    margin: 50px 20px;
+
+}
+
+ input{ 
+    margin: 30px 0;
+    padding: 5px;
+    height: 30px;
+    width: 50vw;
+    font-size: 1.4em;
+    
+
+
+}
+label{
+    display: inline-block;
+    font-size: 1.5em;
+    color: rgb(47, 31, 94);
+    font-weight: 700;
+}
+.btn{
+    height: 50px;
+    width: 30vw;
+    border-radius: 5px ;    
+    background-color: darkblue;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    border:none ;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid navy;
+
+}
+
+.new{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    color: darkblue;
+    font-weight: 600;
+    padding: 30px;
+    border: 2px solid navy;
+    height: 50px;
+    width: auto;
+}
+.cut{
+    display: block;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    color: white;
+    background-color: navy;
+    padding: 0;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgb(81, 81, 119);
+     position: relative; 
+    top:-70px;
+    left:100%; 
+
+}

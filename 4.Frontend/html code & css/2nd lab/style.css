@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+    background-color:beige;
+
+}
+div>input{
+    margin-left: 20px;
+    height: 70%;
+    width: 50%;
+
+}
+button{
+    width: 50px;
+    background-color:rgb(244, 21, 21);
+    color: white;
+    border: none;
+}
+.main{
+
+    text-align: center;
+}
+li{
+    list-style-type:  none;
+}
+.footer{
+    
+}

@@ -1,0 +1,32 @@
+ h1{
+    font-size:3em;
+    color: darkblue;
+    text-decoration: underline;
+
+ }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+table{ width: 50vw;
+    height:auto;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid black;
+}
+
+tr th{
+    background-color:blue;
+    color: aliceblue;
+    font-size: 2em;
+    border: 1px solid black;
+
+}
+
+tr td{
+    font-size: 2em;
+    border: 1px solid black;
+
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(173, 193, 185);
+}
+
+.body {
+    position: relative;
+
+
+}
+
+.banner {
+    width: 100%;
+    background-image: url(channels4_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-bottom:5px solid #fff;
+
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(channels-logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 2cm;
+    margin: 10px;
+    border:2px solid #0f1111;
+}
+
+.channelName {
+    position: absolute;
+    left: 40%;
+    top: 210px;
+    border: none;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: rgb(69, 1, 1);
+    font-size: 3em;
+    font-weight: 800;
+    display: inline-block;
+}
+
+ul {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 28px;
+    color: #3e2300;
+}
+
+#ch-address {
+    list-style-type: none;
+    position: relative;
+    left: -25px
+}
+
+.index{
+     border-top:5px solid #fff;
+    padding: 15px 40px;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 220px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#0f1111;
+   z-index: 1;
+}
+.index a{
+    color: #f08804;
+    text-decoration:none ;  
+    font-size: 1.2em;
+    font-weight: 300;
+    display: inline-block;
+    background-color:#0f1111;
+    text-transform: capitalize;
+    
+
+}
+.index a:hover{
+    background-color: rgb(68, 3, 3);
+    color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0,0,0.5); 
+   transition: 0.5s;
+}
+
+
+.container {
+    position: absolute;
+    top: 460px;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(176, 224, 222);
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(159, 219, 238);
+    backdrop-filter: blur(30%);
+    border: 3px solid rgba(255,255,255,.3); 
+    box-shadow: 0 0 30px rgba(0, 0,0,0.5); 
+
+
+}

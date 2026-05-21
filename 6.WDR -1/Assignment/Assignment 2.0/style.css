@@ -1,0 +1,17 @@
+.container{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    
+
+    
+    border: 6px double black
+}
+.box{
+    height: 100px;
+    width:100px;
+    /* border:  1px solid black; */
+}
+

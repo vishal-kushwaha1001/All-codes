@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:  rgb(179, 189, 189);
+}
+.container{
+ height: fit-content;
+ width: fit-content;
+ padding: 20px 40px;
+ background-color:gainsboro;
+ line-height: 2;
+ font-weight: 600;
+
+}
+
+h1{font-size: 2.5em;
+    color: #b92b27;
+    text-shadow:  0 0 30px  lightcoral;
+}
+ 
+button{
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size:1rem;
+    padding:3px;
+
+}
+ h1>button{
+    color: #fff;
+    background-color: #b92b27;
+    border-bottom: 2px solid #fff;
+    
+
+ }
+ div>input{
+    background-color:ghostwhite;
+    color:darkblue;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid gray;
+    height: 1.5rem;
+    outline: none;
+    font-family:'Segoe UI';
+
+ }
+
+ nav a{
+    color: deeppink;
+    text-decoration: none;
+    font-weight: 700;
+    
+ }
+ nav ul li{
+    color: deeppink;
+    list-style: square;
+    list-style-position: inside;
+ }
+
+ h3{
+    color: #b92b27;
+ }
+
+.upvote{
+    color: #fff;
+    background-color: darkgreen;
+}
+
+.answer{
+    color: #fff;
+    background-color: deepskyblue;
+}
+
+p{
+    color:darkorange
+}
+
+p>a{
+    text-decoration: none;
+    color: darkviolet;
+}
+
+.endline{
+    color:black;
+    line-height: 1;
+    font-weight: 600;
+}
+.endline>a{
+    color: #b92b27;
+}
+
+input[type="password"]{
+    color:darkred
+}
+/* pshudo class  */
+
+button:hover{
+ background-color: blue;
+ color: #fff;
+ transition: .5s;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:active{
+    background-color: darkred;
+    color: #fff; 
+}
+a:active{
+    text-decoration: underline;
+}
+
+input[type="radio"]:checked +label {
+    color: darkred;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h3::first-letter{
+    font-size: 1.3rem;
+}
+
+h1>button::first-letter{
+    font-size: 1.2rem;
+}
+
+p::selection{
+    background-color: rgb(219, 161, 190);
+    color: #fff;
+    text-decoration: underline;
+}
