@@ -1,0 +1,35 @@
+emp_id,first_name,last_name,department,position,salary,date_of_joining,email
+1,John,Doe,HR,Manager,60000.00000,2020-03-15,john.doe@company.com
+2,Jane,Smith,Finance,Accountant,50000.00000,2018-06-22,jane.smith@company.com
+3,Mike,Johnson,IT,"Software Engineer",75000.00000,2019-09-10,mike.johnson@company.com
+4,Emily,Davis,Marketing,"SEO Specialist",45000.00000,2021-01-05,emily.davis@company.com
+5,Robert,Wilson,HR,Recruiter,22000.00000,2020-11-11,robert.wilson@company.com
+6,Sarah,Brown,Finance,"Financial Analyst",55000.00000,2017-04-20,sarah.brown@company.com
+7,David,Miller,IT,"System Administrator",80000.00000,2020-07-30,david.miller@company.com
+8,Laura,Martinez,Marketing,"Content Writer",40000.00000,2021-05-15,laura.martinez@company.com
+9,James,Garcia,HR,"HR Assistant",38000.00000,2019-12-01,james.garcia@company.com
+10,Sophia,Anderson,Finance,"Budget Analyst",48000.00000,2021-08-19,sophia.anderson@company.com
+11,Daniel,Taylor,IT,"DevOps Engineer",70000.00000,2020-10-25,daniel.taylor@company.com
+12,Isabella,Moore,Marketing,"Social Media Manager",47000.00000,2019-07-03,isabella.moore@company.com
+13,Matthew,White,Finance,Auditor,53000.00000,2018-11-17,matthew.white@company.com
+14,Olivia,Harris,IT,"Data Scientist",80000.00000,2021-09-12,olivia.harris@company.com
+15,Christopher,Clark,Marketing,"Market Research Analyst",46000.00000,2020-02-10,christopher.clark@company.com
+16,Abigail,Lewis,HR,"HR Manager",65000.00000,2017-06-25,abigail.lewis@company.com
+17,Benjamin,Hall,Finance,"Tax Specialist",52000.00000,2019-01-15,benjamin.hall@company.com
+18,Charlotte,Young,IT,"Frontend Developer",72000.00000,2020-08-09,charlotte.young@company.com
+19,Ethan,King,Marketing,"PR Specialist",43000.00000,2021-03-22,ethan.king@company.com
+20,Ava,Scott,HR,"Training Coordinator",41000.00000,2020-12-13,ava.scott@company.com
+21,Ava,Parker,HR,"Training Coordinator",41000.00000,2020-12-13,ava.parker@company.com
+22,Ava,Arcane,HR,"Training Coordinator",41000.00000,2020-12-13,ava.arcane@company.com
+23,vikas,Maws,Marketing," JrManager",50000.00000,2025-12-01,edemathews@gg.com
+24,vinod,Maths,Marketing,Trainee,10000.00000,2025-12-01,edenmthews@gg.com
+25,abhishek,Mthes,Marketing,Trainee,10000.00000,2025-12-01,eenmathews@gg.com
+26,riya,Mans,Marketing,Associate,42503.00000,2025-12-01,edenmathew@gg.com
+27,boyka,jilam,Marketing,Manager,70000.00000,2024-10-05,boykaboyka@hjk.com
+28,rahul,pandey,IT,Manager,40001.00000,2023-12-12,ggasihk@gmail.com
+29,rahal,pandey,IT,Associate,40053.00000,2023-12-12,ggasidfhk@gmail.com
+30,rahgl,pandey,IT,Trainee,40000.00000,2023-12-12,ggasiffffk@gmail.com
+31,akash,bisnoi,Finance,HR,45231.56790,2013-12-12,ggasiffdgdgffk@gmail.com
+32,akash,pathak,Finance,HR,45231.54740,2023-11-12,ggasiffhjtdgdgffk@gmail.com
+33,piyush,pay,IT,Associate,40053.00000,2023-12-12,ggasidfssahk@gmail.com
+34,piynsh,dey,HR,Trainee,40000.00000,2023-12-12,ggasiffffsdsdk@gmail.com
